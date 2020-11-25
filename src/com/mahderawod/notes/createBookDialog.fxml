@@ -1,0 +1,20 @@
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.VBox?>
+<?import java.awt.TextArea?>
+<?import javafx.scene.text.Font?>
+<DialogPane fx:controller="com.mahderawod.notes.DialogController"
+            xmlns:fx="http://javafx.com/fxml">
+    <content>
+     <GridPane vgap="10" hgap="10">
+         <Label GridPane.rowIndex="0" GridPane.columnIndex="0" text="Title:"/>
+         <TextField GridPane.rowIndex="0" GridPane.columnIndex="1" fx:id="newBookTitleTextField"/>
+         <Label GridPane.rowIndex="1" GridPane.columnIndex="0" text="Author:"/>
+         <TextField GridPane.rowIndex="1" GridPane.columnIndex="1" fx:id="newBookAuthorTextField"/>
+    </GridPane>
+    </content>
+</DialogPane>
